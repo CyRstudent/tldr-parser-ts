@@ -1,0 +1,19 @@
+{
+	"extends": ["./typedoc.json"],
+	"cleanJsdocTheme": {
+		"siteName": "tldr-parser-ts",
+		"basePath": "/tldr-parser-ts",
+		"menu": [
+			{
+				"title": "GitHub",
+				"link": "https://github.com/CyRstudent/tldr-parser-ts",
+				"target": "_blank"
+			},
+			{
+				"title": "NPM",
+				"link": "https://www.npmjs.com/package/tldr-parser-ts",
+				"target": "_blank"
+			}
+		]
+	}
+}
