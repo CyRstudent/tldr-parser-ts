@@ -47,7 +47,8 @@
 		"check": "pnpm format:check && pnpm lint",
 		"fix": "pnpm format && pnpm lint:fix",
 		"typecheck": "tsc --noEmit",
-		"prepublishOnly": "pnpm typecheck && pnpm test:run && pnpm build"
+		"prepublishOnly": "pnpm typecheck && pnpm test:run && pnpm build",
+		"docs": "pnpm typedoc && pnpm dlx serve docs"
 	},
 	"devEngines": {
 		"packageManager": {
