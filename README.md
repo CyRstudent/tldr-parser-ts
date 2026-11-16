@@ -35,6 +35,7 @@ sudo zypper install tlrc
 ## Installation
 
 Use whichever package manager suits you:
+
 ```bash
 # npm
 npm i tldr-parser-ts
