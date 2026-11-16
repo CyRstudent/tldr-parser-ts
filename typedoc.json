@@ -1,0 +1,10 @@
+{
+	"entryPoints": ["src/index.ts"],
+	"tsconfig": "tsconfig.json",
+	"readme": "README.md",
+	"plugin": ["@clean-jsdoc-theme/typedoc"],
+	"outputs": [{ "name": "clean-jsdoc-theme", "path": "docs" }],
+	"cleanJsdocTheme": {
+		"siteName": "My Library"
+	}
+}
