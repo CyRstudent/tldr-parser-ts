@@ -1,0 +1,23 @@
+{
+	"entryPoints": ["src/index.ts"],
+	"tsconfig": "tsconfig.json",
+	"readme": "README.md",
+	"plugin": ["@clean-jsdoc-theme/typedoc"],
+	"outputs": [{ "name": "clean-jsdoc-theme", "path": "docs" }],
+	"cleanJsdocTheme": {
+		"siteName": "tldr-parser-ts",
+		"defaultTheme": "dark",
+		"menu": [
+			{
+				"title": "GitHub",
+				"link": "https://github.com/CyRstudent/tldr-parser-ts",
+				"target": "_blank"
+			},
+			{
+				"title": "NPM",
+				"link": "https://www.npmjs.com/package/tldr-parser-ts",
+				"target": "_blank"
+			}
+		]
+	}
+}
